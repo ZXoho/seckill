@@ -2,7 +2,7 @@ package com.cn.seckill.dao;
 
 import com.cn.seckill.pojo.SecKill;
 
-import javax.swing.*;
+
 import java.util.Date;
 import java.util.List;
 
@@ -10,6 +10,7 @@ import java.util.List;
  * Project: seckill
  * Created by admin on 2018/10/28 17:01
  */
+
 public interface SecKillDao {
 
     /**
@@ -33,5 +34,5 @@ public interface SecKillDao {
      * @param limit
      * @return
      */
-    List<SecKill> quertAll(int offset, int limit);
+    List<SecKill> queryAll(int offset, int limit);
 }

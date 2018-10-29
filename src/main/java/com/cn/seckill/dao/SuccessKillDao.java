@@ -2,10 +2,12 @@ package com.cn.seckill.dao;
 
 import com.cn.seckill.pojo.SuccessKill;
 
+
 /**
  * Project: seckill
  * Created by admin on 2018/10/28 17:07
  */
+
 public interface SuccessKillDao {
 
     /**
